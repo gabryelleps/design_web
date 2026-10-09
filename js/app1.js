@@ -17,9 +17,9 @@ const balu = {
     },
     saudar(){
         let msg = `Olá, meu nome é ${this.nome}\n`;
-        msg = msg+`Cor: ${this.cor} Raça: ${this.raca}\n`;
-        msg = msg+`Peso: ${this.peso}\n`;
-        msg = msg+`Altura: ${this.altura}\n`;
-        alert(msg);
+        msg = msg+`Cor: ${this.cor} Raça: ${this.raca}\n`
+        msg = msg+`Peso: ${this.peso}\n`
+        msg = msg+`Altura: ${this.altura}\n`
+        alert(msg)
     }
 }
